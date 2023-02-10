@@ -1005,13 +1005,13 @@
     "@sentry/utils" "6.18.1"
     tslib "^1.9.3"
 
-"@sentry/integrations@^6.18.1":
-  version "6.18.1"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-6.18.1.tgz#c815eb9d104739805401b69d5559adec14876e33"
-  integrity sha512-Xzg9C0qPpauZGab2OLKnJjCwn/Lx7WsZK87Q53KaYcscdvXNV0LriNzNKcBIRH+Q+GEsaF3mjyGDLmuDABB59A==
+"@sentry/integrations@^7.37.1":
+  version "7.37.1"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.37.1.tgz#69031ab877b78ee68a46bfaa70d90b0de691757e"
+  integrity sha512-/7VZXw7/DxZPsGNEaU/gcKRNPtmK75mz9oM71C5UbRDDEdFSEeVq2jG+tOq2lIsd2VQlsAmN3DG5yqiGA9C4eQ==
   dependencies:
-    "@sentry/types" "6.18.1"
-    "@sentry/utils" "6.18.1"
+    "@sentry/types" "7.37.1"
+    "@sentry/utils" "7.37.1"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -1055,12 +1055,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.18.1.tgz#e2de38dd0da8096a5d22f8effc6756c919266ede"
   integrity sha512-wp741NoBKnXE/4T9L723sWJ8EcNMxeTIT1smgNJOfbPwrsDICoYmGEt6JFa05XHpWBGI66WuNvnDjoHVeh6zhA==
 
+"@sentry/types@7.37.1":
+  version "7.37.1"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.37.1.tgz#269da7da39c1a5243bf5f9a35370291b5cc205bb"
+  integrity sha512-c2HWyWSgVA0V4+DSW2qVb0yjftrb1X/q2CzCom+ayjGHO72qyWC+9Tc+7ZfotU1mapRjqUWBgkXkbGmao8N8Ug==
+
 "@sentry/utils@6.18.1":
   version "6.18.1"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.18.1.tgz#1aa819502b042540612f4db7bcb86c7b176f5a6b"
   integrity sha512-IFZmuvA+c5lDGlZEri13JSyUP0BHelzY0S4dcKxAzskPW+BtBdQDgYGV90iED1y+IRMLawWb34GF7HyJSouN1Q==
   dependencies:
     "@sentry/types" "6.18.1"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.37.1":
+  version "7.37.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.37.1.tgz#7695d6e30d6178723f3fa446a9553893bca85e96"
+  integrity sha512-/4mJOyDsfysx+5TXyJgSI+Ihw2/0EVJbrHjCyXPDXW5ADwbtU8VdBZ0unOmF0hk4QfftqwM9cyEu3BN4iBJsEA==
+  dependencies:
+    "@sentry/types" "7.37.1"
     tslib "^1.9.3"
 
 "@sentry/webpack-plugin@^1.18.8":
